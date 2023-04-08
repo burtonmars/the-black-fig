@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '../styles/About.module.scss';
+import styles from '../styles/about/About.module.css';
 import Navbar from '@/components/navbar';
 
 function About() {

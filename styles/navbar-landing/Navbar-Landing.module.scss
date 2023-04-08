@@ -1,0 +1,15 @@
+.navbar__navbar {
+    display: flex;
+    width: 50vw;
+    max-width: 950px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family-header);
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar__navbar {
+        flex-direction: column;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '../styles/Gallery.module.scss';
+import styles from '../styles/gallery/Gallery.module.css';
 import Navbar from '@/components/navbar';
 
 function Gallery() {
