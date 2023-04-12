@@ -1,0 +1,74 @@
+.reservation__formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
+  gap: 3rem;
+  margin-top: 2rem;
+  width: 35vw;
+}
+.reservation__formContainer h1 {
+  font-family: var(--font-family-header);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.reservation__formContainer .reservation__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 80%;
+}
+.reservation__formContainer .reservation__form label {
+  font-size: 1rem;
+}
+.reservation__formContainer .reservation__form input[type=text],
+.reservation__formContainer .reservation__form input[type=email],
+.reservation__formContainer .reservation__form input[type=datetime-local],
+.reservation__formContainer .reservation__form input[type=tel] {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+}
+.reservation__formContainer .reservation__form input[type=date],
+.reservation__formContainer .reservation__form input[type=time],
+.reservation__formContainer .reservation__form input[type=number] {
+  margin-left: 1rem;
+}
+.reservation__formContainer .reservation__form .reservation__nameContainer, .reservation__formContainer .reservation__form .reservation__emailContainer,
+.reservation__formContainer .reservation__form .reservation__phoneContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.reservation__formContainer .reservation__form .reservation__nameContainer input, .reservation__formContainer .reservation__form .reservation__emailContainer input,
+.reservation__formContainer .reservation__form .reservation__phoneContainer input {
+  width: 23vw;
+}
+.reservation__formContainer .reservation__form .reservation__submitContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2rem;
+}
+.reservation__formContainer .reservation__form .reservation__submitContainer button[type=submit] {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 40%;
+  max-width: 400px;
+}
+.reservation__formContainer .reservation__form button[type=submit]:hover {
+  background-color: #FF8C00;
+}/*# sourceMappingURL=Reservation.module.css.map */

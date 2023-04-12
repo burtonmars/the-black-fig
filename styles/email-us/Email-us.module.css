@@ -1,0 +1,73 @@
+.emailUs__formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
+  gap: 3rem;
+  margin-top: 2rem;
+  width: 35vw;
+}
+.emailUs__formContainer h1 {
+  font-family: var(--font-family-header);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.emailUs__formContainer .emailUs__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 80%;
+}
+.emailUs__formContainer .emailUs__form label {
+  font-size: 1rem;
+}
+.emailUs__formContainer .emailUs__form input[type=text],
+.emailUs__formContainer .emailUs__form input[type=email] {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+}
+.emailUs__formContainer .emailUs__form .emailUs__messageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+.emailUs__formContainer .emailUs__form .emailUs__messageContainer textarea {
+  margin-top: 1rem;
+  border: 1.5px solid #ccc;
+  width: 100%;
+}
+.emailUs__formContainer .emailUs__form .emailUs__nameContainer, .emailUs__formContainer .emailUs__form .emailUs__emailContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.emailUs__formContainer .emailUs__form .emailUs__submitContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2rem;
+}
+.emailUs__formContainer .emailUs__form .emailUs__submitContainer button[type=submit] {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 40%;
+  max-width: 400px;
+}
+.emailUs__formContainer .emailUs__form button[type=submit]:hover {
+  background-color: #FF8C00;
+}/*# sourceMappingURL=Email-us.module.css.map */

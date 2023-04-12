@@ -1,0 +1,45 @@
+.contact__container {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: space-between;
+
+    .contact__backgroundImg {
+        flex: 1;
+        background-image: url('../../assets/img/table-food-vertical.webp');
+        background-size: cover;
+        background-position: center;
+        height: 100%; 
+        width: 26vw;
+
+        .contact__backgroundTint {
+            background-color: rgb(256, 256 , 256, .3);
+            height: 100%; 
+            width: 26vw;
+        }
+    }
+
+    .contact__formContainer {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .contact__mapWidgetContainer_outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 30vw;
+        flex: 2;
+
+
+        .contact__mapWidgetContainer_inner {
+            height: 50vh;
+            width: 50%;
+        }
+    }
+
+}
