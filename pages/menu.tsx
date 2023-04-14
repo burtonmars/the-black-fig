@@ -63,7 +63,7 @@ function menu() {
                     <li>Bulleit Bourbon applewood smoked Manhatten</li>
                     <li>Tanqueray, Luxardo, fresh squeezed lemon and beet juice, orange and tarragon syrup, herbes de Provence dust</li>
                     <li>Aperol, splash of Lillet, soda, sparkling wine</li>
-                    <li>Rosé wine "L’Orangeraie", fresh squeezed grapefruit juice, splash of simple syrup</li>
+                    <li>Rosé wine L’Orangeraie, fresh squeezed grapefruit juice, splash of simple syrup</li>
                   </ul>
                 </div>
                 <div className={`${styles.menu__wine} ${styles.menu__section}`}>
