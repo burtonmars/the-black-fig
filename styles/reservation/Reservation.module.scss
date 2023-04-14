@@ -50,10 +50,6 @@
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-between;
-
-        input {
-            width: 23vw;
-        }
     }
 
     .reservation__submitContainer {
@@ -84,5 +80,25 @@
 
 
   }
+
+}
+
+@media screen and (max-width: 1160px) {
+
+    .reservation__formContainer {
+        width: 50vw;
+        height: 70vw;
+        gap: 1rem;
+        margin-right: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .reservation__formContainer {
+        width: 80vw;
+        margin-right: 0;
+    }
 
 }

@@ -46,10 +46,6 @@
   align-items: flex-end;
   justify-content: space-between;
 }
-.reservation__formContainer .reservation__form .reservation__nameContainer input, .reservation__formContainer .reservation__form .reservation__emailContainer input,
-.reservation__formContainer .reservation__form .reservation__phoneContainer input {
-  width: 23vw;
-}
 .reservation__formContainer .reservation__form .reservation__submitContainer {
   display: flex;
   justify-content: flex-end;
@@ -71,4 +67,19 @@
 }
 .reservation__formContainer .reservation__form button[type=submit]:hover {
   background-color: #FF8C00;
+}
+
+@media screen and (max-width: 1160px) {
+  .reservation__formContainer {
+    width: 50vw;
+    height: 70vw;
+    gap: 1rem;
+    margin-right: 4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .reservation__formContainer {
+    width: 80vw;
+    margin-right: 0;
+  }
 }/*# sourceMappingURL=Reservation.module.css.map */

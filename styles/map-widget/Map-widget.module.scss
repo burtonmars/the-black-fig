@@ -1,6 +1,84 @@
 .mapwidget__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     height: 100%;
     width: 100%;
-    border: solid;
+    border: solid 1px #8b8b8b;
     border-radius: 20px;
+
+    .mapwidget__containerMapAndAddress {
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+
+        .mapwidget__map {
+            flex: 3;
+        }
+
+        .mapwidget__addressContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            padding: 2rem;
+
+            h1 {
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+    .mapwidget__containerGetDirections {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: solid 1px #8b8b8b;
+        border-bottom: solid 1px #8b8b8b;
+        width: 100%;
+        flex: 1;
+
+        .mapwidget__directionsArrow {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex: 1;
+            rotate: 90deg;
+            height: 100%;
+        }
+
+        .mapwidget__getDirectionsText {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex: 2;
+        }
+
+    }
+
+    .mapwidget__containerPhoneNumber {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex: 1;
+
+        .mapwidget__phoneIcon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            height: 100%;
+        }
+
+        .mapwidget__phoneNumberText {
+            flex: 2;
+        }
+
+
+    }
+
 }

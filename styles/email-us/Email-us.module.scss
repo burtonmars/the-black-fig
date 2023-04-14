@@ -87,3 +87,22 @@
   }
 
 }
+
+@media screen and (max-width: 1160px) {
+
+    .emailUs__formContainer {
+        width: 50vw;
+        height: 70vh;
+        gap: 1rem;
+        margin-right: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .emailUs__formContainer {
+        width: 80vw;
+    }
+
+}

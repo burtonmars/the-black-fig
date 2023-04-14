@@ -70,4 +70,18 @@
 }
 .emailUs__formContainer .emailUs__form button[type=submit]:hover {
   background-color: #FF8C00;
+}
+
+@media screen and (max-width: 1160px) {
+  .emailUs__formContainer {
+    width: 50vw;
+    height: 70vh;
+    gap: 1rem;
+    margin-right: 4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .emailUs__formContainer {
+    width: 80vw;
+  }
 }/*# sourceMappingURL=Email-us.module.css.map */
