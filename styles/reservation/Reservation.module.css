@@ -82,4 +82,7 @@
     width: 80vw;
     margin-right: 0;
   }
+  .reservation__formContainer h1 {
+    margin-bottom: 2rem;
+  }
 }/*# sourceMappingURL=Reservation.module.css.map */
