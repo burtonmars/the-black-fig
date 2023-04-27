@@ -68,6 +68,14 @@ function menu() {
                 </div>
                 <div className={`${styles.menu__wine} ${styles.menu__section}`}>
                   <h2>Wine</h2>
+                  <ul>
+                    <li>Couirmette Merlot, France 2020</li>
+                    <li>Fortina Strasse Malbec, Argentina 2022 </li>
+                    <li>Fortina Strasse Cabernet Sauvingon, Argentina 2020 </li>
+                    <li>Twisted Trellis Pinot Noir, New York 2017</li>
+                    <li>Twisted Trellis Reisling, New York 2022</li>
+                    <li>Syvah Reisling. California, 2022</li>
+                  </ul>
                 </div>
             </div>
           </div>

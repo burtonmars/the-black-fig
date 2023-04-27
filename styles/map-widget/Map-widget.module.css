@@ -5,8 +5,9 @@
   justify-content: space-evenly;
   height: 100%;
   width: 100%;
-  border: solid 1px #8b8b8b;
+  border: solid 5px #8b8b8b;
   border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .mapwidget__container .mapwidget__containerMapAndAddress {
   display: flex;
