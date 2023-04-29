@@ -4,6 +4,8 @@ This NextJS app is a fully responsive web page for a fictional restaurant. I cre
 
 A highlight of this project is a location widget on the contact page the incorporates google maps using maps javascript API. 
 
+![black-fig-contact-snap](https://user-images.githubusercontent.com/34987913/235317322-5c9a9bb4-b196-4839-9724-4347d98cf1d0.PNG)
+
 
 If not live at the moment, the app can be run locally using
 
@@ -14,3 +16,4 @@ yarn dev
 # or
 pnpm dev
 ```
+
