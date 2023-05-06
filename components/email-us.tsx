@@ -25,7 +25,7 @@ function EmailUs() {
   return (
     <div className={styles.emailUs__formContainer}>
       <h1>
-        Send us and Email
+        Send us an Email
       </h1>
       <form className={styles.emailUs__form} onSubmit={handleSubmit}>
         <div className={styles.emailUs__nameContainer}>

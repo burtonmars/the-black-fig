@@ -1,11 +1,11 @@
-.about__container {
+.about__about .about__container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 200vh;
+  height: 180vh;
   padding: 0 10rem 0 10rem;
 }
-.about__container .about__aboutUsContainer {
+.about__about .about__container .about__aboutUsContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,53 +13,53 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-.about__container .about__aboutUsContainer .about__aboutUsLeft {
+.about__about .about__container .about__aboutUsContainer .about__aboutUsLeft {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 70%;
 }
-.about__container .about__aboutUsContainer .about__aboutUsLeft h1 {
+.about__about .about__container .about__aboutUsContainer .about__aboutUsLeft h1 {
   font-size: 4rem;
   font-family: var(--font-family-header);
 }
-.about__container .about__aboutUsContainer .about__aboutUsLeft p {
+.about__about .about__container .about__aboutUsContainer .about__aboutUsLeft p {
   font-size: 1.2rem;
   padding: 0rem 5rem 0 5rem;
 }
-.about__container .about__aboutUsContainer .about__aboutUsRight {
+.about__about .about__container .about__aboutUsContainer .about__aboutUsRight {
   width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about__container .about__fromChefContainer {
+.about__about .about__container .about__fromChefContainer {
   display: flex;
   align-items: center;
 }
-.about__container .about__fromChefContainer .about__fromChefLeft {
+.about__about .about__container .about__fromChefContainer .about__fromChefLeft {
   width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about__container .about__fromChefContainer .about__fromChefRight {
+.about__about .about__container .about__fromChefContainer .about__fromChefRight {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 70%;
 }
-.about__container .about__fromChefContainer .about__fromChefRight h1 {
+.about__about .about__container .about__fromChefContainer .about__fromChefRight h1 {
   font-size: 4rem;
   font-family: var(--font-family-header);
 }
-.about__container .about__fromChefContainer .about__fromChefRight p {
+.about__about .about__container .about__fromChefContainer .about__fromChefRight p {
   font-size: 1.2rem;
   padding: 0rem 5rem 0 5rem;
 }
-.about__container .about__fromChefContainer .about__fromChefRight .about__chefSignature {
+.about__about .about__container .about__fromChefContainer .about__fromChefRight .about__chefSignature {
   width: 70%;
   display: flex;
   align-items: center;
@@ -67,43 +67,43 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .about__container {
+  .about__about .about__container {
     height: 200vh;
     padding: 0;
     justify-content: flex-start;
     gap: 20vh;
   }
-  .about__container .about__aboutUsContainer {
+  .about__about .about__container .about__aboutUsContainer {
     flex-direction: column;
   }
-  .about__container .about__aboutUsContainer .about__aboutUsLeft {
+  .about__about .about__container .about__aboutUsContainer .about__aboutUsLeft {
     width: 80%;
   }
-  .about__container .about__aboutUsContainer .about__aboutUsLeft h1 {
+  .about__about .about__container .about__aboutUsContainer .about__aboutUsLeft h1 {
     margin-top: 4rem;
     margin-bottom: 2rem;
     font-size: 5rem;
   }
-  .about__container .about__aboutUsContainer .about__aboutUsLeft p {
+  .about__about .about__container .about__aboutUsContainer .about__aboutUsLeft p {
     font-size: 1.2rem;
     padding: 0rem 3rem 5rem 3rem;
   }
-  .about__container .about__fromChefContainer {
+  .about__about .about__container .about__fromChefContainer {
     flex-direction: column;
     align-items: center;
   }
-  .about__container .about__fromChefContainer .about__fromChefLeft {
+  .about__about .about__container .about__fromChefContainer .about__fromChefLeft {
     width: 100%;
   }
-  .about__container .about__fromChefContainer .about__fromChefRight {
+  .about__about .about__container .about__fromChefContainer .about__fromChefRight {
     width: 80%;
   }
-  .about__container .about__fromChefContainer .about__fromChefRight h1 {
+  .about__about .about__container .about__fromChefContainer .about__fromChefRight h1 {
     margin-top: 4rem;
     margin-bottom: 2rem;
     font-size: 5rem;
   }
-  .about__container .about__fromChefContainer .about__fromChefRight p {
+  .about__about .about__container .about__fromChefContainer .about__fromChefRight p {
     font-size: 1.2rem;
     padding: 3rem 3rem 0 3rem;
   }
@@ -131,5 +131,24 @@
   .about__container .about__fromChefContainer .about__fromChefRight p {
     font-size: 1.2rem;
     padding: 3rem 3rem 0 3rem;
+  }
+}
+@media screen and (min-width: 1850px) {
+  .about__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 2150px) {
+  .about__about {
+    height: 150vh;
+  }
+  .about__about .about__container {
+    align-items: center;
+    width: 70%;
+  }
+  .about__about .about__container h1 {
+    padding-bottom: 2rem;
   }
 }/*# sourceMappingURL=About.module.css.map */

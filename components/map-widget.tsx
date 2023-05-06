@@ -25,7 +25,7 @@ function MapWidget() {
   );
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDtRsNA84RsJ0FduMH_-eoQLa7NU0Tre9k",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY as string,
     libraries: libraries as any,
   });
 

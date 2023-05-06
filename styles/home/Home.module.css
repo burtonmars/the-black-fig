@@ -16,7 +16,7 @@
 
 .home__title {
   color: #fff;
-  font-size: 9rem;
+  font-size: 10rem;
   font-family: var(--font-family-header);
 }
 
@@ -24,6 +24,16 @@
   color: #fff;
 }
 
+@media screen and (min-width: 1950px) {
+  .home__title {
+    font-size: 12rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .home__title {
+    font-size: 8rem;
+  }
+}
 @media screen and (max-width: 650px) {
   .home__title {
     font-size: 7rem;
